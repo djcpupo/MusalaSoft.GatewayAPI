@@ -20,7 +20,7 @@ namespace MusalaSoft.GatewayAPI.Logic
         public Peripheral AddPeripheral(Peripheral peripheral)
         {
             var newPeriperal = db.Peripherals.Create();
-            newPeriperal.DateCreated = DateTime.Now;
+            newPeriperal.DateCreated = peripheral.DateCreated;
             newPeriperal.StatusID = peripheral.StatusID;
             newPeriperal.UID = peripheral.UID;
             newPeriperal.Vendor = peripheral.Vendor;

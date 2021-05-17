@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusalaSoft.GatewayAPI", "MusalaSoft.GatewayAPI\MusalaSoft.GatewayAPI.csproj", "{0DC4CC6F-D418-411C-B01E-3355FD66D956}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusalaSoft.GatewayAPITests", "MusalaSoft.GatewayAPITests\MusalaSoft.GatewayAPITests.csproj", "{66F5906B-6516-41B7-9717-652C4F8F3843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusalaSoft.GatewayAPITests1", "MusalaSoft.GatewayAPITests1\MusalaSoft.GatewayAPITests1.csproj", "{B6093C1F-A535-4080-B8B6-E648458D1BB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0DC4CC6F-D418-411C-B01E-3355FD66D956}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DC4CC6F-D418-411C-B01E-3355FD66D956}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DC4CC6F-D418-411C-B01E-3355FD66D956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F5906B-6516-41B7-9717-652C4F8F3843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F5906B-6516-41B7-9717-652C4F8F3843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F5906B-6516-41B7-9717-652C4F8F3843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F5906B-6516-41B7-9717-652C4F8F3843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6093C1F-A535-4080-B8B6-E648458D1BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6093C1F-A535-4080-B8B6-E648458D1BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6093C1F-A535-4080-B8B6-E648458D1BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6093C1F-A535-4080-B8B6-E648458D1BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
